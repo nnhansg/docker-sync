@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 
 ADD ./entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
