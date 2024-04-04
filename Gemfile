@@ -9,6 +9,6 @@ group :test do
   gem 'activesupport', '~>5.2.8'
   gem 'os', '>= 1.0.0'
   # for ruby 2.4 support
-  gem 'rdoc', '<=6.3.2'
+  gem 'rdoc', '~> 6.3', '>= 6.3.4.1'
   gem 'minitest', '<=5.15.0'
 end
